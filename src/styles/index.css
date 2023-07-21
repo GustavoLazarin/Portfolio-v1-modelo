@@ -6,7 +6,7 @@
 .App {
     background-color: var(--bg-color);
 
-    padding: 0.9375rem 1rem 1.75rem 1rem;
+    padding: 0.9375rem 2rem 1.75rem 2rem;
 }
 
 .container {
@@ -24,4 +24,14 @@
 
 section {
     margin: 100px auto;
+}
+
+@media (max-width: 624px) {
+    .cardsList {
+        justify-content: center;
+    }
+
+    .cardsList > li {
+        width: 100%;
+    }
 }
