@@ -1,0 +1,12 @@
+button {
+    height: 2.5rem;
+    padding: 0 1.875rem;
+    border-radius: 12px;
+
+    color: var(--white);
+    background-color: var(--primary);
+}
+
+button:hover {
+    background-color: var(--primary-hover);
+}

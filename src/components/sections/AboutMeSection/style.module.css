@@ -1,0 +1,20 @@
+.aboutMeSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.aboutParagraph {
+    max-width: 68%;
+}
+
+@media (max-width: 692px) {
+    .aboutMeSection{
+        width: clamp(330px, 80vw ,900px);
+        flex-direction: column;
+    }
+
+    .aboutParagraph{
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,25 @@
+.header {
+    margin-bottom: clamp(2.5rem, 10vw , 6.25rem) !important;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerGuide {
+    display: flex;
+    gap: 3.75rem;
+}
+
+.header a {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+@media (max-width: 520px) {
+    .header {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
