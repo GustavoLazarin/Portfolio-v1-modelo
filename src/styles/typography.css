@@ -1,0 +1,41 @@
+h1, h2, h3, p, a, button {
+    font-family: var(--font-primary);
+    line-height: 1.6;
+    color: var(--white);
+}
+
+.title1 {
+    color: var(--white);
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.title2 {
+    color: var(--white);
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.title3 {
+    color: var(--white);
+    font-size: 1.375rem;
+    font-weight: 800;
+}
+
+.paragraph {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.primary {
+    color: var(--primary);
+}
+
+a {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+a:hover {
+    color: var(--primary-hover);
+}

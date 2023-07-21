@@ -1,0 +1,10 @@
+.aboutMeSection {
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.aboutParagraph {
+    max-width: 68%;
+}

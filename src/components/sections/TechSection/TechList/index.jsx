@@ -1,6 +1,6 @@
 export function TechList({children}) {
     return (
-        <ul>
+        <ul className="cardsList">
             {children}
         </ul>
     )

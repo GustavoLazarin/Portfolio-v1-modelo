@@ -1,0 +1,19 @@
+.bannerSection {
+    display: flex;
+    align-items: flex-end;
+    gap: clamp(10px, 5vw, 7.8125rem);
+}
+
+.userName {
+    color: var(--primary);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.bannerSection h1 {
+    max-width: 21rem;
+}
+
+.bannerSection p {
+    margin: 1.4375rem 0 2.3125rem 0;
+}

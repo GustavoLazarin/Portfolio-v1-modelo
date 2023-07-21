@@ -1,0 +1,27 @@
+@import url(./reset.css);
+@import url(./global.css);
+@import url(./typography.css);
+@import url(./buttons.css);
+
+.App {
+    background-color: var(--bg-color);
+
+    padding: 0.9375rem 1rem 1.75rem 1rem;
+}
+
+.container {
+    max-width: 56.25rem;
+    margin: 0 auto;
+}
+
+.cardsList {
+    margin-top: 1.75rem;
+
+    display: flex;
+    gap: 1.0625rem;
+    flex-wrap: wrap;
+}
+
+section {
+    margin: 100px auto;
+}

@@ -1,6 +1,6 @@
 export function ProjectsList({ children }) {
     return (
-        <ul>
+        <ul className="cardsList">
            {children}
         </ul>
     )

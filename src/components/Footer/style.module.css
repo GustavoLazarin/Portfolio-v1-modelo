@@ -1,0 +1,18 @@
+.footer {
+    height: 11.875rem;
+    border-top: 1px solid var(--white);
+    border-bottom: 1px solid var(--white);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer > div > h1{
+    padding-bottom: 19px;
+}
+
+.footerIcons {
+    display: flex;
+    gap: 15px;
+}

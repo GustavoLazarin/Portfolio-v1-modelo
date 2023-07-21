@@ -1,0 +1,11 @@
+:root {
+    /* Colors */
+    --primary: #6880FF;
+    --primary-hover: #7C91FF;
+    --white: #FFFFFF;
+    --black: #000000;
+    --bg-color: #181818;
+
+    /* Font-family */
+    --font-primary: 'Inter', sans-serif;
+}
